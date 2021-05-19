@@ -3,8 +3,8 @@
 ### Project Goal: The goal of this project is to examine a set of job postings with salaries and then predict salaries for a new set of job postings.
 Tool: Python 3-Jupyter Notebook with a wide range of libraries and packages such as Pandas,NumPy,sklearn,matplotlib,seaborn for data manipulation,data visualization and predictive modeling.
 # Data
-There are 3 
-train_features.csv - Each observation represents an individual's job posting; each column represents unqiue information about this applicant and the job applied to. This dataset is meant to be used in training models.
+There are 3 different file under the data.zip  
+<h4>train_features.csv</h4>-Each observation represents an individual's job posting; each column represents unqiue information about this applicant and the job applied to. This dataset is meant to be used in training models.
 
 test_features.csv - Each observation represents an individual's job posting; each column represents unqiue information about this applicant and the job applied to. This dataset is meant to be used for evaluating models trained on train_features.csv.
 
@@ -24,15 +24,15 @@ salary - the salary of the job posting
 # Steps
 1.Import Libraries  
 2.Load Data  
-3.Clean the data
-4.Explore the data 
+3.Clean the data  
+4.Explore the data  
 5.Baseline model  
 6.Hypothesis solutions  
 7.Feature Engineering   
-8.Model development
-9.Test model
-10.select the best model.
-11.Automated pipeline   
-12.Deploy the solution  
+8.Model development  
+9.Test model  
+10.Select the best model  
+11.Automated pipeline     
+12.Deploy the solution    
 
 
