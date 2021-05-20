@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  
+  <title>ML API</title>
+  
+  
+</head>
+
+<body style="backgroud: yellow">
+ <div class="login">
+	<h1>Predict Salary Analysis</h1>
+	
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="jobType" placeholder="jobType" required="required" /></b>
+        <input type="text" name="degree" placeholder="degree" required="required" /></b>
+	<input type="text" name="major" placeholder="major" required="required" /></b>
+        <input type="text" name="industry" placeholder="industry" required="required" /></b>
+	<input type="text" name="yearsExperience" placeholder="yearsExperience" required="required" /></b>
+        <input type="text" name="milesFromMetropolis" placeholder="milesFromMetropolis" required="required" /></b>
+						
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
