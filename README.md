@@ -33,6 +33,6 @@ salary - the salary of the job posting
 9.Test model  
 10.Select the best model  
 11.Automated pipeline     
-12.Deploy the solution    
+12.Deploy the solution  
 
 
