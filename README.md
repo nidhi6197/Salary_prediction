@@ -5,7 +5,7 @@
 - *Employers*: Informative for companies hiring to make sure they're paying future employees the appropriate amount; furthermore, helps reduce costs while hiring the most qualified.
 
 ### 1 Main Notebooks:
-  1. Salary_Prediction.ipynb( contains EDA , Baseline model, select best model)
+  1. Salary_Prediction.ipynb( contains EDA , Baseline model, select the best model)
   2. model.ipynb (contains final model for project) 
 
 
@@ -52,21 +52,16 @@
         - Salary has a Gaussian or *Normal* Distribution
         - All other features ahve a *Uniform* Distribution
       - Create and Pickle: Train, Validation, and Test data
-  3. **Develop** develop diffrent model 
-    - ***Notebook: 'Salary_Prediction.ipynb'***
+  3. **Develop** Feature Engineering , create the model , select the best model
+    
       
         - Random Forest Regressor: 389.68
         - Linear Regression: 921.97
         - Gradient Boosting Regressor: 359.23
      
-      - ***Summary:*** The **Gradient Boosting Regressors** - LightGBM and Gradient Boosting - performed **best** between *both* pipelines. While - **Random Forest Regressor** performed the **worst** on average.
-   - ***Notebook: 'Tuning Hyperparameters from Baseline Models'***
-      - MSE Scores on *Validation data* for models after Tuned:
-        - Random Forest Regressor: 370.82
-        - XGB Regressor: 357.51
-        - Linear Regression: 384.62 -- Scores stays *constant* since parameters cannot be tuned
-        - **Light GBM Regressor: 356.42**
-        - Gradient Boosting Regressor: 356.78
-  4. **Deploy** Pipelines and Solutions
-      - The optimal model will be the **Light GBM Regressor** as it provides the **lowest MSE** and **fastest** hyperparameter tuning 
+      - ***Summary:*** The **Gradient Boosting Regressors** - performed **best** when **max_depth=6** and **n_estimators=160**
+  
+     
+  4. **Deploy** Solutions
+      - The optimal model will be the **Gradient Boosting Regressors** as it provides the **lowest MSE**
 
