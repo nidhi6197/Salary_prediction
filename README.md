@@ -5,7 +5,7 @@
 - *Employers*: Informative for companies hiring to make sure they're paying future employees the appropriate amount; furthermore, helps reduce costs while hiring the most qualified.
 
 ### 1 Main Notebooks:
-  1. Salary_Prediction.ipynb( contains EDA , Baseline model, Tuning Hyperparameters from Baseline Models)
+  1. Salary_Prediction.ipynb( contains EDA , Baseline model, select best model)
   2. model.ipynb (contains final model for project) 
 
 
@@ -21,11 +21,11 @@
   
 ## Outline the 4D Process:
   1. **Define** the Problem
-    - ***Notebook: 'Salary_Prediction.ipynb'***
+    
       - **Problem**: Employees and Employers often have a hard time determining the optimal salary for individuals based on their qualifications. 
       - **Goal**: Studying this HR dataset and creating a Regression algorithm to predict salaries based on these features.
   2. **Discover** Inights and Trends
-    - ***Notebook: 'Salary_Prediction.ipynb'***
+    
       - Understand the Numerical and Categorical data:
         1. **Numerical**
             - **Salary**: Target Feature & pay of each employee
