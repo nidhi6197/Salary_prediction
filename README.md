@@ -54,10 +54,13 @@
       - Create and Pickle: Train, Validation, and Test data
   3. **Develop** Feature Engineering , create the model , select the best model
     
-      
-        - Random Forest Regressor: 389.68
-        - Linear Regression: 921.97
-        - Gradient Boosting Regressor: 359.23
+        - Base line model MSE = 1288.204605360597
+        - 
+       **After feature engineering**
+       
+        - Random Forest Regressor MSE: 389.68
+        - Linear Regression MSE: 921.97
+        - Gradient Boosting Regressor MSE: 359.23
      
       - ***Summary:*** The **Gradient Boosting Regressors** - performed **best** when **max_depth=6** and **n_estimators=160**
   
