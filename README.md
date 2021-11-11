@@ -4,7 +4,7 @@
 - *Employees*: Useful for job hunters and candidates to negotiate their proper salary based on qualifications like: years of Experience and Industry worked in.
 - *Employers*: Informative for companies hiring to make sure they're paying future employees the appropriate amount; furthermore, helps reduce costs while hiring the most qualified.
 
-### 1 Main Notebooks:
+### Main Notebooks:
   1. Salary_Prediction.ipynb( contains EDA , Baseline model, select the best model)
   2. model.ipynb (contains final model for project) 
 
