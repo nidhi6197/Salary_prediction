@@ -55,7 +55,7 @@
   3. **Develop** Feature Engineering , create the model , select the best model
     
         - Base line model MSE = 1288.204605360597
-        - 
+        
        **After feature engineering**
        
         - Random Forest Regressor MSE: 389.68
